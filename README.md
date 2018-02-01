@@ -154,7 +154,7 @@ The coach uses Browsertime to start the browser, execute the JavaScript and fetc
 In the simplest version you use the default configuration (default DOM and HAR advice and using Firefox):
 
 ```js
-const api = require('webcoach');
+const api = require('@digitaslbiparis/webcoach');
 const result = api.run('https://www.sitespeed.io');
 ```
 
@@ -162,7 +162,7 @@ The full API method:
 
 ```js
 // get the API
-const api = require('webcoach');
+const api = require('@digitaslbiparis/webcoach');
 const result = api.run(url, domScript, harScript, options);
 ```
 
@@ -184,7 +184,7 @@ Or you just get it from the API:
 
 ```js
 // get the API
-const api = require('webcoach');
+const api = require('@digitaslbiparis/webcoach');
 // get the DOM scripts, it's a promise
 const domScriptPromise = api.getDomAdvice();
 ```
@@ -194,7 +194,7 @@ Take the *domScript* and run it in your browser and take care of the result.
 To test the HAR you need to generate the HAR yourself and then run it against the advice.
 
 ```js
-const api = require('webcoach');
+const api = require('@digitaslbiparis/webcoach');
 // You read your HAR file from disk or however you get hold of it
 const harJson = //
 // if your har contains multiple pages (multiple runs etc) you can use the API
