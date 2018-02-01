@@ -1,7 +1,7 @@
 {
   "name": "@digitaslbiparis/webcoach",
-  "version": "1.1.2",
-  "description": "Fork from original. The coach gives you advice on building a better web page",
+  "version": "1.2.0",
+  "description": "This is a fork of sitespeedio/coach. The coach gives you advice on building a better web page",
   "keywords": [
     "performance",
     "web",
