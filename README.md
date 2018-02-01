@@ -1,4 +1,6 @@
- The coach
+This is a fork of sitespeedio/coach.
+
+The coach
 
 [![Build status][travis-image]][travis-url]
 [![Downloads][downloads-image]][downloads-url]

@@ -20,6 +20,9 @@
     "lib",
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/DigitasLBiParis/coach.git"
