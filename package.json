@@ -1,7 +1,7 @@
 {
-  "name": "webcoach",
+  "name": "@digitaslbiparis/webcoach",
   "version": "1.1.2",
-  "description": "The coach gives you advice on building a better web page",
+  "description": "Fork from original. The coach gives you advice on building a better web page",
   "keywords": [
     "performance",
     "web",
@@ -22,10 +22,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sitespeedio/coach.git"
+    "url": "git://github.com/DigitasLBiParis/coach.git"
   },
   "bugs": {
-    "url": "https://github.com/sitespeedio/coach/issues"
+    "url": "https://github.com/DigitasLBiParis/coach/issues"
   },
   "scripts": {
     "bookmarklet": "npm run domconsole && bookmarkletify dist/domconsole.js -o dist/coach.bookmarklet.js",
@@ -74,6 +74,9 @@
     },
     {
       "name": "Jonathan Lee"
+    },
+    {
+      "name": "Romain Lafourcade"
     }
   ],
   "dependencies": {
